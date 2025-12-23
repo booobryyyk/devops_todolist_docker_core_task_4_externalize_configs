@@ -66,7 +66,7 @@ DATABASES = {
         "NAME": os.environ.get("NAME", "app_db"),
         "USER": os.environ.get("USER", "app_user"),
         "PASSWORD": os.environ.get("PASSWORD", "1234"),
-        "HOST": os.environ.get("HOST", "db"),  # Use "db" service name from docker-compose
+        "HOST": os.environ.get("HOST", "mysql"),  # Use "mysql" service name from docker-compose
         "PORT": os.environ.get("PORT", "3306"),
     }
 }
